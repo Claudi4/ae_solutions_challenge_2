@@ -273,7 +273,7 @@
 
                     <!-- Right Column - Contact Details (Desktop only) -->
                     <aside class="col-lg-4 d-none d-lg-flex px-3 justify-content-lg-end" role="complementary" aria-label="Detalles de contacto">
-                        <div class="sticky-top" style="min-width: 480px;">
+                        <div class="sticky-top" style="min-width: 380px; max-width: 380px;">
                             <!-- Contact Details Section -->
                             <div class="pb-4 mb-4">
                                 <div class="d-flex justify-content-between align-items-center mb-3 position-relative ps-4">
@@ -339,29 +339,31 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-white border-top mt-5 py-4" role="contentinfo">
+    <footer class="border-top mt-5 py-4" role="contentinfo" style="background-color: #F9F9F9;">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
+            <div class="row align-items-center">
+                <!-- Text and links column -->
+                <div class="col-12 col-md-10">
                     <p class="mb-3 text-start small">
-                        Lorem Ipsum is simply dummy text of the printing and <strong>typesetting</strong> industry.
+                        Lorem Ipsum is simply dummy text of the printing and <strong class="text-decoration-underline">typesetting</strong> industry.
                     </p>
                     <nav aria-label="Enlaces de pie de página">
-                        <ul class="list-inline text-start mb-0">
-                            <li class="list-inline-item"><a href="#" class="text-secondary small text-decoration-none">Privacy Policy</a></li>
-                            <li class="list-inline-item">|</li>
-                            <li class="list-inline-item"><a href="#" class="text-secondary small text-decoration-none">Terms of Use</a></li>
-                            <li class="list-inline-item">|</li>
-                            <li class="list-inline-item"><a href="#" class="text-secondary small text-decoration-none">Privacy Policy</a></li>
-                            <li class="list-inline-item">|</li>
-                            <li class="list-inline-item"><a href="#" class="text-secondary small text-decoration-none">Terms of Use Privacy Policy</a></li>
-                            <li class="list-inline-item">|</li>
-                            <li class="list-inline-item"><a href="#" class="text-secondary small text-decoration-none">Terms of Use</a></li>
+                        <ul class="list-inline text-start mb-3 mb-md-0">
+                            <li class="list-inline-item"><a href="#" class="small text-decoration-underline text-dark">Privacy Policy</a></li>
+                            <li class="list-inline-item text-dark">|</li>
+                            <li class="list-inline-item"><a href="#" class="small text-decoration-underline text-dark">Terms of Use</a></li>
+                            <li class="list-inline-item text-dark">|</li>
+                            <li class="list-inline-item"><a href="#" class="small text-decoration-underline text-dark">Privacy Policy</a></li>
+                            <li class="list-inline-item text-dark">|</li>
+                            <li class="list-inline-item"><a href="#" class="small text-decoration-underline text-dark">Terms of Use Privacy Policy</a></li>
+                            <li class="list-inline-item text-dark">|</li>
+                            <li class="list-inline-item"><a href="#" class="small text-decoration-underline text-dark">Terms of Use</a></li>
                         </ul>
                     </nav>
-                    <div class="text-center text-md-start mt-3">
-                        <img src="images/logo_privalia.svg" alt="Privalia" class="img-fluid" style="max-width: 80px;">
-                    </div>
+                </div>
+                <!-- Logo column -->
+                <div class="col-12 col-md-2 text-start text-md-end">
+                    <img src="images/logo_privalia.svg" alt="Privalia" class="img-fluid" style="max-width: 80px;">
                 </div>
             </div>
         </div>
