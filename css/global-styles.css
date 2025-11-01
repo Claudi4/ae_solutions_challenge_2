@@ -1,0 +1,64 @@
+:root {
+  --bs-primary: #0049C1;
+  --bs-primary-rgb: 0, 73, 193;
+  --bs-primary-text: #0049C1;
+  --bs-primary-bg-subtle: #cce0ff;
+  --bs-primary-border-subtle: #99c2ff;
+  --bs-link-color: #0049C1;
+  --bs-link-hover-color: #003a9a;
+  --bs-border-color: #0049C1;
+  --bs-danger: #FF0004;
+  --bs-danger-rgb: 255, 0, 4;
+  --bs-danger-text: #FF0004;
+  --bs-danger-bg-subtle: #ffe6e6;
+  --bs-danger-border-subtle: #ffcccd;
+}
+
+body {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.btn-primary {
+  background-color: #0049C1 !important;
+  border-color: #0049C1 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #003a9a !important;
+  border-color: #003a9a !important;
+}
+
+.border-primary {
+  border-color: #0049C1 !important;
+}
+
+a.text-primary,
+.text-primary {
+  color: #0049C1 !important;
+}
+
+a.text-primary:hover {
+  color: #003a9a !important;
+}
+
+.btn-danger {
+  background-color: #FF0004 !important;
+  border-color: #FF0004 !important;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
+  background-color: #cc0003 !important;
+  border-color: #cc0003 !important;
+}
+
+.border-danger {
+  border-color: #FF0004 !important;
+}
+
+.text-danger {
+  color: #FF0004 !important;
+}
